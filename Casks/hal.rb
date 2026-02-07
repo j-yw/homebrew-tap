@@ -3,7 +3,7 @@ cask "hal" do
   name "hal"
   desc ""
   homepage ""
-  version "0.1.6"
+  version "0.1.7"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "hal" do
   on_macos do
     on_intel do
       url "https://github.com/j-yw/hal/releases/download/v#{version}/hal_#{version}_darwin_amd64.tar.gz"
-      sha256 "b28f6b8db249ac4d8954a0df61bb85069833dd07bfe86be36cda20b342c7753e"
+      sha256 "69a94e8ff3f8686f2637e2ab7ba438e1cec2fcdba707721b7420823b7c5d6e3a"
     end
     on_arm do
       url "https://github.com/j-yw/hal/releases/download/v#{version}/hal_#{version}_darwin_arm64.tar.gz"
-      sha256 "ef0b7027278d41144587a15bfe131e64e3025c5dfb6b8cdca851206b52e82432"
+      sha256 "3fdeb1a3046d5733d5bedd680a6734c66fae998d5979f690c612920399f77b2f"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/j-yw/hal/releases/download/v#{version}/hal_#{version}_linux_amd64.tar.gz"
-      sha256 "1bf37c980c41969ff51f6baf3c6d1f555961283320d857175d0a2c73e42645fc"
+      sha256 "2ec41529caa61d90aef0839407caa608c1a538f172d772090c7c8e22c630b89f"
     end
     on_arm do
       url "https://github.com/j-yw/hal/releases/download/v#{version}/hal_#{version}_linux_arm64.tar.gz"
-      sha256 "60088b0a549e06eec9fe8ff1e38e7c98136f5e3db6d987ebc2a9cc72cd349e0b"
+      sha256 "2c5a4840db737bba71b3af43ef5d69818f2e74b2069416fa870dc30f7a86f451"
     end
   end
 
